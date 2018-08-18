@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d96991a6-d29c-49a4-99c2-463c220fd8cd/resourceGroups/appsvc_rg_linux_southindia/providers/Microsoft.Web/sites/AngularTourOfHeroesApp",
+    "appService.deploySubpath": ""
+}
