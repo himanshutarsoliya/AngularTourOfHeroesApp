@@ -54,8 +54,7 @@ export class HeroService {
     );
   }
 
-  deleteHero(hero: Hero | number): Observable<Hero>
-  {
+  deleteHero(hero: Hero | number): Observable<Hero> {
     const httpOptions = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json' })
     };
